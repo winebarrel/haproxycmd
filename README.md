@@ -10,7 +10,7 @@ HA-Proxy version 1.6.6 2016/06/26
 Copyright 2000-2016 Willy Tarreau <willy@haproxy.org>
 
 $ haproxycmd -h
-Usage of ./haproxycmd:
+Usage of haproxycmd:
   -socket string
       haproxy socket path
 
