@@ -15,13 +15,6 @@ func Command(sock string, args []string, out io.Writer) {
 	}
 
 	cmd := strings.Join(args, " ")
-
-	fmt.Println(cmd)
-
-	if cmd == "" {
-		cmd = "help"
-	}
-
 	fmt.Fprintln(conn, cmd)
 
 	io.Copy(out, conn)
