@@ -1,2 +1,3 @@
 /haproxycmd
-*.gz
+/pkg/haproxycmd*
+.DS_Store
